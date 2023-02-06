@@ -1,0 +1,93 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    /* background: #1B510E; */
+}
+
+.container {
+    /* padding-top: 40px; */
+    /* height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    height: auto;
+    background-color: #000000;
+    height: 100%;
+    padding-bottom: 30px;
+    background-image: url('./assets/capa.png');
+}
+
+.iframe {
+    max-width: 800px;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px dashed #0FAF29;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+aside div h3 {
+    color: #0FAF29;
+    margin-bottom: 10px;
+}
+
+aside div h4 {
+    color: black;
+}
+
+aside img {
+    height: 60px;
+}
+
+footer {
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+#box_hotmart{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    display: none;
+}
